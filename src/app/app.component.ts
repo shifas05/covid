@@ -21,6 +21,7 @@ export class AppComponent {
     {value: 'italy', viewValue: 'Italy'},
     {value: 'iran', viewValue: 'Iran'},
     {value: 'spain', viewValue: 'Spain'},
+    {value: 'china', viewValue: 'China'},
   ];
   countryFlag = '';
   selectedCountry = null;
