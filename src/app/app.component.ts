@@ -16,7 +16,11 @@ export class AppComponent {
   covidData :any = [];
   countries: Country[] = [
     {value: 'india', viewValue: 'India'},
-    {value: 'uae', viewValue: 'Uae'},
+    {value: 'uae', viewValue: 'UAE'},
+    {value: 'usa', viewValue: 'USA'},
+    {value: 'italy', viewValue: 'Italy'},
+    {value: 'iran', viewValue: 'Iran'},
+    {value: 'spain', viewValue: 'Spain'},
   ];
   countryFlag = '';
   selectedCountry = null;
